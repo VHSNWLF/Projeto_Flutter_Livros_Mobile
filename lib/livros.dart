@@ -53,27 +53,32 @@ class MyBooks extends StatelessWidget {
         Text("Harry Potter e a Câmara Secreta", style: TextStyle(
             fontWeight: FontWeight.w500,
           )),
-         SizedBox(height: 300, width: 300, child: Image.network('https://m.media-amazon.com/images/I/51lRMYwP-4L.jpg'),),
+         SizedBox(height: 300, width: 300, child: Image.network('https://m.media-amazon.com/images/I/71NsVQ5MlwL._AC_UF1000,1000_QL80_.jpg'),),
+        SizedBox(height: 20,),
         Text("Harry Potter e o Prisioneiro de Azkaban", style: TextStyle(
             fontWeight: FontWeight.w500,
           )),
-         SizedBox(height: 300, width: 300, child: Image.network('https://m.media-amazon.com/images/I/51lRMYwP-4L.jpg'),),
+         SizedBox(height: 300, width: 300, child: Image.network('https://rebootcomics.com.br/wp-content/uploads/2023/08/1692406836523.jpg'),),
+        SizedBox(height: 20,),
         Text("Harry Potter e o Calice de Fogo", style: TextStyle(
             fontWeight: FontWeight.w500,
           )),
-         SizedBox(height: 300, width: 300, child: Image.network('https://m.media-amazon.com/images/I/51lRMYwP-4L.jpg'),),
+         SizedBox(height: 300, width: 300, child: Image.network('https://m.media-amazon.com/images/I/81nTLN-kz7L._AC_UF1000,1000_QL80_.jpg'),),
+        SizedBox(height: 20,),
         Text("Harry Potter e a Ordem da Fênix", style: TextStyle(
             fontWeight: FontWeight.w500,
           )),
-         SizedBox(height: 300, width: 300, child: Image.network('https://m.media-amazon.com/images/I/51lRMYwP-4L.jpg'),),
+         SizedBox(height: 300, width: 300, child: Image.network('https://cdn.kobo.com/book-images/f75002e9-5ae1-4d08-aa45-e98cb49f301d/1200/1200/False/harry-potter-e-a-ordem-da-fenix.jpg'),),
+        SizedBox(height: 20,),
         Text("Harry Potter e o Enigma do Principe", style: TextStyle(
             fontWeight: FontWeight.w500,
           )),
-         SizedBox(height: 300, width: 300, child: Image.network('https://m.media-amazon.com/images/I/51lRMYwP-4L.jpg'),),
+         SizedBox(height: 300, width: 300, child: Image.network('https://m.media-amazon.com/images/I/61sXBXmAWML._AC_UF1000,1000_QL80_.jpg'),),
+        SizedBox(height: 20,),
         Text("Harry Potter e as Reliquias da Morte", style: TextStyle(
             fontWeight: FontWeight.w500,
           )),
-         SizedBox(height: 300, width: 300, child: Image.network('https://m.media-amazon.com/images/I/51lRMYwP-4L.jpg'),),
+         SizedBox(height: 300, width: 300, child: Image.network('https://lojaleiturinha.vtexassets.com/arquivos/ids/156210/1671658331hpreliquiasdamorte.jpg?v=638337701870870000'),),
       ],)),
     ));
   }
