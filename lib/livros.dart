@@ -30,7 +30,8 @@ class MyBooks extends StatelessWidget {
         ),
         textAlign: TextAlign.center,),
       ),
-      body: Center(child: Column(children: [
+      body: SingleChildScrollView (child:
+      Center(child: Column(children: [
         Text("Harry Potter e a Pedra Filosofal", style: TextStyle(
           fontSize: 20,
           fontWeight: FontWeight.bold
@@ -49,18 +50,31 @@ class MyBooks extends StatelessWidget {
           SizedBox(width: 20,),
         ],),
         SizedBox(height: 20,),
-        Text("Harry Potter e a Câmara Secreta"),
-        SizedBox(height: 20,),
-        Text("Harry Potter e o Prisioneiro de Azkaban"),
-        SizedBox(height: 20,),
-        Text("Harry Potter e o Calice de Fogo"),
-        SizedBox(height: 20,),
-        Text("Harry Potter e a Ordem da Fênix"),
-        SizedBox(height: 20,),
-        Text("Harry Potter e o Enigma do Principe"),
-        SizedBox(height: 20,),
-        Text("Harry Potter e as Reliquias da Morte"),
+        Text("Harry Potter e a Câmara Secreta", style: TextStyle(
+            fontWeight: FontWeight.w500,
+          )),
+         SizedBox(height: 300, width: 300, child: Image.network('https://m.media-amazon.com/images/I/51lRMYwP-4L.jpg'),),
+        Text("Harry Potter e o Prisioneiro de Azkaban", style: TextStyle(
+            fontWeight: FontWeight.w500,
+          )),
+         SizedBox(height: 300, width: 300, child: Image.network('https://m.media-amazon.com/images/I/51lRMYwP-4L.jpg'),),
+        Text("Harry Potter e o Calice de Fogo", style: TextStyle(
+            fontWeight: FontWeight.w500,
+          )),
+         SizedBox(height: 300, width: 300, child: Image.network('https://m.media-amazon.com/images/I/51lRMYwP-4L.jpg'),),
+        Text("Harry Potter e a Ordem da Fênix", style: TextStyle(
+            fontWeight: FontWeight.w500,
+          )),
+         SizedBox(height: 300, width: 300, child: Image.network('https://m.media-amazon.com/images/I/51lRMYwP-4L.jpg'),),
+        Text("Harry Potter e o Enigma do Principe", style: TextStyle(
+            fontWeight: FontWeight.w500,
+          )),
+         SizedBox(height: 300, width: 300, child: Image.network('https://m.media-amazon.com/images/I/51lRMYwP-4L.jpg'),),
+        Text("Harry Potter e as Reliquias da Morte", style: TextStyle(
+            fontWeight: FontWeight.w500,
+          )),
+         SizedBox(height: 300, width: 300, child: Image.network('https://m.media-amazon.com/images/I/51lRMYwP-4L.jpg'),),
       ],)),
-    );
+    ));
   }
 }
